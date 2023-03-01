@@ -4,9 +4,13 @@ body{
     overflow: hidden;
     background-image: url("flower-floral-art-pattern-background-design-grey-tone-noirty-designs.jpg");
     background-repeat: no-repeat;
-    background-image: cover;
+    background-position: center;
+    background-size: cover;
+    
+    
+    
 }
-
+/*Navigation bar*/
 #nav{
     width: 100%;
     list-style: none;
@@ -38,7 +42,7 @@ ul li:hover {
     background: rgb(123, 120, 120);
     
 }
-
+/* H1 with my name*/
 #name{
 text-align: center;
 }
@@ -47,7 +51,7 @@ text-align: center;
 /*Image of me on homepage*/
 img{
     margin-top: 2%;
-    margin-left: 5%;
+    margin-left: 27%;
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 5px;
@@ -57,14 +61,24 @@ img{
 
 /*Div box with facts about me in homepage*/
 #fun{
-    display:flex;
-    margin-left: auto;
-    margin-right: 5%;
+   position: relative;
+   left: 10vw;
     border: 2px solid black;
     width: 200px;
     height: auto;
 }
 
+/*Paragraph with introtext about me*/
 #facts{
-    margin-left: 2%;
+    text-align: center;
+}
+
+/*Transparent div with all other divs in it*/
+#transp{
+  position:absolute;
+  right: 30vw;  
+    background-color: rgba(181, 173, 173, 0.5);
+    border: 1px solid black;
+    width: auto;
+    height: auto; 
 }
